@@ -1,1 +1,131 @@
+/*  * - Все элементы */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+/* #second_p{
+    font-size: 48px;
+}
+
+.p_group1{
+    font-size: 16px;
+}
+
+.red_color{
+    color: red;
+    font-weight: bold;
+} */
+
+/* Селекторы */
+
+/* названине_тега - 1*/ 
+/* p{
+    font-size: 18px;
+} */
+
+/* класс - 10 */
+/* .red_color{
+    text-decoration: underline;
+} */
+
+/* идентификатор - 100 */
+/* #unique_paragraph{
+    font-size: 25px;
+}
+
+p{
+    font-size: 35px;
+} */
+
+
+/* .block1{
+    border: 5px solid red;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.block2{
+    border: 5px solid blue;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+} */
+
+/* .container1{ */
+    /* margin: 20px 40px 0px 80px; */
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: ;
+    margin-right: ; */
+    /* border: 1px solid black; */
+    /* border-left: ;
+    border-right: ;
+    border-top: ;
+    border-bottom: ; */
+    /* border-width: ;
+    border-style: ;
+    border-color: ;
+     */
+     /* border-left-width: ;
+     border-right-color: ; */ 
+/* } */
+
+.table1{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1  th, .table1 td{
+    border: 1px solid black;
+}
+
+.table2{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table2 th, .table2 td{
+    border: 1px solid black;
+}
+
+.table3{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table3 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+/* Потомки */
+/* selector1 selector2{
+    ...
+} */
+
+
+/* Непосредственно вложенные */
+/* selector1 > selector2{
+    ...
+} */
+
+/* Пример .table1 */
+/* Потомки .table1 - > thead, tbody, tr, th, td
+
+Непосредственно вложенные .table1 - > thead, tbody */
